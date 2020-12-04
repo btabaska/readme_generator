@@ -10,6 +10,16 @@ const questions = [
     message: "What is the name of your project?",
   },
   {
+    name: "github_username",
+    type: "input",
+    message: "What is your GitHub Username?",
+  },
+  {
+    name: "user_email_address",
+    type: "input",
+    message: "What is your email address?",
+  },
+  {
     name: "project_description",
     type: "editor",
     message: "Please Describe your Project",
@@ -33,6 +43,17 @@ const questions = [
     name: "image_text",
     type: "input",
     message: "Provide a title for your image.",
+  },
+
+  {
+    name: "contribution_guidelines",
+    type: "editor",
+    message: "Please provide contribution guidelines.",
+  },
+  {
+    name: "test_guidelines",
+    type: "editor",
+    message: "Please provide testing guidelines.",
   },
   {
     name: "license",
