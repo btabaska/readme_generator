@@ -26,8 +26,8 @@ ${
 ## Tests\n
 ${data.test_guidelines ? data.test_guidelines : "No Instruction Provided."}\n
 ## Questions\n
-[${github_username}](https://www.github.com/${github_username})\n
-Reach me with additional questions at ${user_email_address}.\n
+[${data.github_username}](https://www.github.com/${data.github_username})\n
+Reach me with additional questions at ${data.user_email_address}.\n
 ## License\n
 The content of this site is licensed under ${data.license}.
 `;
